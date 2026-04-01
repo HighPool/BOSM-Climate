@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def summarize_runs(best_final: np.ndarray, best_curves: np.ndarray) -> dict:
     """
     best_final: shape (n_runs,)
