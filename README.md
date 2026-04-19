@@ -1,6 +1,6 @@
 # BOSM Climate
 
-Projekt k diplomovej práci zameranej na optimalizáciu nákladných black-box úloh s využitím náhradných modelov v klimaticky orientovaných aplikáciách. Aktuálna implementácia je zameraná na úlohu rozmiestnenia environmentálnych senzorov odvodenú z dát LAQN a na porovnanie viacerých optimalizačných metód v jednotnom experimentálnom rámci. Pri implementácii sa využívajú externé repozitáre PyBADS, TuRBO a LAQN-BO. :contentReference[oaicite:1]{index=1}
+Projekt k diplomovej práci zameranej na optimalizáciu nákladných black-box úloh s využitím náhradných modelov v klimaticky orientovaných aplikáciách. Aktuálna implementácia je zameraná na úlohu rozmiestnenia environmentálnych senzorov odvodenú z dát LAQN a na porovnanie viacerých optimalizačných metód v jednotnom experimentálnom rámci. Pri implementácii sa využívajú externé repozitáre PyBADS, TuRBO a LAQN-BO.
 
 ## Obsah projektu
 
@@ -15,7 +15,7 @@ Výstupy experimentov sú ukladané tak, aby bolo možné:
 - analyzovať výsledky po problémoch aj globálne,
 - a exportovať priebehy behu každého algoritmu do CSV formátu podľa požadovaného formátu pre IOHanalyzer.
 
-Použitý algoritmus PyBADS predstavuje Python implementáciu Bayesian Adaptive Direct Search a repozitár TuRBO poskytuje implementáciu trust-region Bayesian optimization. Úlohy LAQN sú odvodené z rámca LAQN-BO, ktorý slúži na generovanie a spracovanie problémových inštancií z dát London Air Quality Network. :contentReference[oaicite:2]{index=2}
+Použitý algoritmus PyBADS predstavuje Python implementáciu Bayesian Adaptive Direct Search a repozitár TuRBO poskytuje implementáciu trust-region Bayesian optimization. Úlohy LAQN sú odvodené z rámca LAQN-BO, ktorý slúži na generovanie a spracovanie problémových inštancií z dát London Air Quality Network.
 
 ## Štruktúra adresára
 
